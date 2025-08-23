@@ -24,3 +24,9 @@ print(static_numbers)
 ## create a 2d list using list comprehension
 two_d_list = [(i,j) for i in range(5) for j in range(4)]
 print(two_d_list)
+
+## slicing the list
+print(ten_numbers[0:5])  # prints first 5 elements
+print(cube_numbers[5:])   # prints elements from index 5 to end
+print(static_numbers[:3])  # prints first 3 elements
+print(two_d_list[1:3])     # prints 2d list from index 1 to 2
