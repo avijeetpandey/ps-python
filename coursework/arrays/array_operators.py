@@ -20,3 +20,7 @@ print(cube_numbers)
 ## create a static list of numbers using list comprehension
 static_numbers = [5]*10
 print(static_numbers)
+
+## create a 2d list using list comprehension
+two_d_list = [(i,j) for i in range(5) for j in range(4)]
+print(two_d_list)
