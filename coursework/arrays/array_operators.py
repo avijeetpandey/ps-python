@@ -30,3 +30,14 @@ print(ten_numbers[0:5])  # prints first 5 elements
 print(cube_numbers[5:])   # prints elements from index 5 to end
 print(static_numbers[:3])  # prints first 3 elements
 print(two_d_list[1:3])     # prints 2d list from index 1 to 2
+
+numbers_set = set()
+numbers = [1,1,1,4,5,6,6,9,9,9,0,1]
+
+total_duplicates = 0
+
+for number in numbers:
+    if number in numbers_set:
+        total_duplicates += 1
+    else:
+        numbers_set.add(number)
